@@ -10,6 +10,14 @@
 <body>
     <div id = "calc-main-body">
       <div id = "calc-display-container">
+        <div class = "calc-led-light"  >
+            <div id = "calc-led-light-1">
+            </div>
+            <div id = "calc-led-light-2">
+            </div>
+            <div id = "calc-led-light-3">
+            </div>
+        </div>
         <p id= "calc-display" > 
             <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
             <script src="calc.js"></script>
@@ -36,8 +44,8 @@
         <div class = "calc-button calc-operator">-</div>
         <div class = "calc-button calc-operator">+</div>
         
-        <div id = "delete-button">C</div>
-        <div id = "equality-sign">=</div>
+        <div id = "delete-button" class="calc-button-big">C</div>
+        <div id = "equality-sign" class="calc-button-big">=</div>
       </div>
     </div>
 </body>
